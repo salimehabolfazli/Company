@@ -419,7 +419,7 @@ a.navbar-brand.sticky-logo, .header-sticky a.navbar-brand.primary-logo {
 	background:rgba(0,0,0,0.7);
 }
 /* Header Styles */
-header {
+/*header {
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
@@ -430,6 +430,9 @@ header {
 .header-slider .item {
 	background-size: cover;
 	background-repeat:no-repeat;	
+}*/
+header {
+	background-image: url("/company/images/bg/main-demo.jpg");
 }
 .img-before {
 	display:inline-block;
