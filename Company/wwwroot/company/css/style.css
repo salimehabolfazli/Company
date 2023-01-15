@@ -39,6 +39,8 @@ body
     color: #333333;
 	font-size:16px;
 	line-height:26px;
+	direction:rtl;
+	text-align:right;
 }
 ::-moz-selection { 
     color: red;
@@ -262,7 +264,7 @@ section {
 	margin-top: 6px;
 }
 nav.navbar {
-	position:absolute;
+	/*position:absolute;*/
 	top:0;
 	right:0;
 	left:0;
@@ -340,7 +342,7 @@ a.navbar-brand.sticky-logo, .header-sticky a.navbar-brand.primary-logo {
 	background-color:rgba(9, 185, 187, 0.9);
 }
 .navbar-transparent {
-	background-color:transparent;
+	background-color:#333333;
 }
 .navbar-nav.navbar-social > li > a > i {
     height: 70px;

@@ -1,19 +1,33 @@
-﻿<header id="home" class="full-height bg-img" data-src="/company/images/bg/main-demo.jpg">
-    <img src="/company/images/bg/main-demo.jpg" />
-    <p>khfakhfaksh</p>
-    @* <div class="container">
-       <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                <div class="header-content">
-                    <div class="header-content-inner">
-                        <div class="section-title">
-                            <h1 class="section-title-divider animated zoomIn">طرح <span class="primary-color">مورد علاقه</span> شما</h1>
-                            <p>راه اندازی بوت استرپ می تواند به شما در ایجاد وب سایت های بهتر با استفاده از چارچوب CSS بوت استرپ کمک کند! فقط قالب خود را بارگیری کرده و بدون هیچ رشته ای شروع به کار کنید!</p>
-                        </div>
-                        <a class="btn btn-default btn-xl" href="#about">اطلاعات بیشتر</a> <!-- THEME DEFAULT BUTTON -->
-                    </div>
-                </div>
-            </div>
+﻿<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/company/images/bg/1.jpg" alt="Los Angeles">
         </div>
-    </div>*@
-</header>
+
+        <div class="item">
+            <img src="/company/images/bg/4.jpg" alt="Chicago">
+        </div>
+
+        <div class="item">
+            <img src="/company/images/bg/3.jpg" alt="New York">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
