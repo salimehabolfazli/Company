@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Services.Components
+namespace SorooshHamrah.Company.UI.Services.Components
 {
 	public partial class ServiceItem
 	{

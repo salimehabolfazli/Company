@@ -1,4 +1,4 @@
-using Company;
+using SorooshHamrah.Company.UI;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

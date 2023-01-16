@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Features.Components
+namespace SorooshHamrah.Company.UI.Features.Components
 {
 	public partial class FeatureItem
 	{

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Shared
+namespace SorooshHamrah.Company.UI.Shared
 {
 	public partial class SectionTitle
 	{

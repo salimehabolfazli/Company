@@ -14,9 +14,14 @@
   <ItemGroup>
     <!--<Folder Include="Pages\" />-->
     <Folder Include="About\Components\" />
+    <Folder Include="Blogs\Pages\" />
     <Folder Include="Contact\Components\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SorooshHamrah.Company.Shared\SorooshHamrah.Company.Shared.csproj" />
   </ItemGroup>
 
 </Project>

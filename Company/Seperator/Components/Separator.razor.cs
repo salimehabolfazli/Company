@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Seperator.Components
+namespace SorooshHamrah.Company.UI.Seperator.Components
 {
     public partial class Separator
     {

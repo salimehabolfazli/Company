@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Counter.Components
+namespace SorooshHamrah.Company.UI.Counter.Components
 {
 	public partial class CounterItem
 	{

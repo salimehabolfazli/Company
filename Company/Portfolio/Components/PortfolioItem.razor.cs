@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Portfolio.Components
+namespace SorooshHamrah.Company.UI.Portfolio.Components
 {
     public partial class PortfolioItem
     {

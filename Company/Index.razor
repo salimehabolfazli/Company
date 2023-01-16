@@ -1,32 +1,23 @@
 ﻿@page "/"
-@using Company.About.Pages
-@using Company.Blogs.Components
-@using Company.Blogs.Pages
-@using Company.Contact.Pages
-@using Company.Counter.Components
-@using Company.Features.Components
-@using Company.Features.Pages
-@using Company.Portfolio.Components
-@using Company.Portfolio.Pages
-@using Company.Seperator.Components
-@using Company.Services.Components
-@using Company.Services.Pages
+@using SorooshHamrah.Company.UI.Blogs.Components
+@using SorooshHamrah.Company.UI.Contact.Pages
+@using SorooshHamrah.Company.UI.Counter.Components
+@using SorooshHamrah.Company.UI.Features.Components
+@using SorooshHamrah.Company.UI.Features.Pages
+@using SorooshHamrah.Company.UI.Portfolio.Components
+@using SorooshHamrah.Company.UI.Portfolio.Pages
+@using SorooshHamrah.Company.UI.Seperator.Components
+@using SorooshHamrah.Company.UI.Services.Components
+@using SorooshHamrah.Company.UI.Shared
+@using SorooshHamrah.Company.UI.SlideShows.Components
 
 <div class="main-wrap">
 
-    <Navbar></Navbar>
-    <Header></Header>
-    <About></About>
+    <SlideShow></SlideShow>
     <Separator ImgUrl="/company/images/bg/4.jpg" Content="برای شروع با استارک آماده اید؟" BtnName="آماده شدن"></Separator>
-    <Service></Service>
-    <Separator ImgUrl="/company/images/bg/5.jpg" Content="ما آماده آمدن هستیم" BtnName="شروع کنید!"></Separator>
-    <Feature></Feature>
     <Counter></Counter>
-    <Portfolio></Portfolio>
     <Separator ImgUrl="/company/images/bg/2.jpg" Content="ما آماده آمدن هستیم" BtnName="شروع کنید!"></Separator>
     <Blog></Blog>
     <Separator ImgUrl="/company/images/bg/3.jpg" Content="ما آماده آمدن هستیم" BtnName="شروع کنید!"></Separator>
-    <Contact></Contact>
-    <Footer></Footer>
 
 </div>

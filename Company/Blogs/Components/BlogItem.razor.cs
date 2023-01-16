@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Company.Blogs.Components
+namespace SorooshHamrah.Company.UI.Blogs.Components
 {
     public partial class BlogItem
     {
